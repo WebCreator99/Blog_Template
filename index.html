@@ -3,43 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header>
-    <h1> Welcome to My World</h1>
-    <p>This is megha</p>
-  </header>
+    <h1 class="main-heading">Learn CSS</h1>
 
-  <section>
-    <h2>About me</h2>
-    <p>Hello ! I'm Megha</p>
-    <img src="data:image/jpeg;base64,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" alt="Megha pic" width="280">
-  </section>
+    <h1 id="second-heading">My name is Megha</h1>
 
-  <p>
-    <h2>Contact Information</h2>
-    <p>Let's connect</p>
-    <p> <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TcoNzC2MDBVYDRgdGDw4sjJzMtOTcnMAwBRaga5&q=linkedin&oq=linkdin&gs_lcrp=EgZjaHJvbWUqFQgBEC4YChiDARjHARixAxjRAxiABDIGCAAQRRg5MhUIARAuGAoYgwEYxwEYsQMY0QMYgAQyEwgCEAAYgwEYkQIYsQMYgAQYigUyEAgDEAAYkQIYsQMYgAQYigUyDQgEEAAYkQIYgAQYigUyDQgFEAAYkQIYgAQYigUyEggGEC4YChjHARixAxjRAxiABDIGCAcQBRhA0gEINDAyMWowajeoAgiwAgHxBRgzmb_hfdjA8QUYM5m_4X3YwA&sourceid=chrome&ie=UTF-8">Linkidin</a></p>
-  </section>
-
-  <section>
-    <h2>My Skill</h2>
-    <table align="center"> 
-      <tr>
-        <td>
-          <ul style="text-align:right;">
-            <li>Web Devolvement</li>
-            <li>Graphic designer</li>
-            <li>Photograph</li>
-          </ul>
-
-          
-        </td>
-      </tr>
-
-    </table>
-  </section>
+    <h1 class="main-heading">I have style</h1>
+    <p class="text-styles">Make HTML look good CSS</p>
     
 </body>
 </html>
