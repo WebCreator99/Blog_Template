@@ -3,54 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learn CSS Layout</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <h6>Hello World</h6>
+    <h1 class="main-header">CSS Layout Using Flexbox & Grid </h1>
 
-    <p>
-        This is a paragraph  <i> This is a italic text</i> <strong>This is a bold</strong>
-    </p>
-    
-    <p>Lorem ipsum sit amet consectetur adipisicing elit. Cum, qui!</p>
+    <h1 class="main-header">Flex-layout </h1>
 
-    <ul>
-        <li>This is first item</li>
-        <li>this is second item</li>
-        <li>Third item</li>
-    </ul>
 
-    <ol>
-        <li>This is first item</li>
-        <li>Second item</li>
-        <li>Third one</li>
-        <li>fourth one</li>
-    </ol>
+    <div class="flex-layout">
+        <div class="box">
+            <h1>Box 1</h1>
 
-    <form action="">
-        <div>
-            <input type="text" placeholder="Enter your name"/>
-
-            <input type="password" placeholder="Enter your password"/>
+            <p>Lorem ipsum dolor amet.</p>
         </div>
-        
-        <textarea
-    name=""
-    id=""
-    placeholder="This is a text area, enter your comments"
-></textarea>
-</form>
 
-<a href="./about.html"> Go to about Page</a>
+        <div class="box">
+            <h1>Box 2</h1>
+            It is designed especially for time sharing systems. Here CPU
+            switches between the processes. When the time quantum
+            expired, the CPU switched to another job. A small unit of
+            time, called a time quantum or time slice. A time quantum is
+            generally from 10 to 100 ms. The time quantum is generally
+            depending on OS. Here ready queue is a circular queue.
+            CPU scheduler picks the first process from ready queue, sets
+            timer to interrupt after one time quantum and dispatches the
+            process.
+        </div>
 
-<img 
-width="450x"
-src="./image.jpg.jpg" alt="image">
-    
+        <div class="box">
+            <h1>Box 3</h1>
+
+        </div>
+        <div class="box">
+            <h1>Box 4</h1>
+        </div>
+
+        <div class="box">
+            <h1>Box 5</h1>
+
+    </div>
+    </div>
+
+    <h1 class="main-header">Grid-layout </h1>
+
+    <div class="grid-layout">
+        <div class="grid-item">
+            <h1>Item 1</h1>
+            <p>To avoid starvation, we use the concept of Aging. In Aging, after some
+                fixed amount of time quantum, we increase the priority of the low priority
+                processes. By doing so, as time passes, the lower priority process becomes a
+                higher priority process.</p>
+        </div>
+
+        <div class="grid-item">
+            <h1>Item 2</h1>
+        </div>
+
+        <div class="grid-item">
+            <h1>Item 3</h1>
+        </div>
+    </div>
 </body>
 </html>
