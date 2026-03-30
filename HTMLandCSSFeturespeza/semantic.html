@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Semantic tags</title>
+    <style>
+        header, footer {
+            background-color: bisque;
+        }
+        nav {
+            background-color: rgb(43, 245, 245);
+        }
+        a {
+            color: black;
+        }
+        main{
+            display:flex;
+        }
+        section{
+            flex:4;
+            background-color: rgb(90, 114, 135);
+        }
+        aside{
+            flex:1;
+            background-color: rgb(55, 116, 169);
+        }
+        article{
+            background-color: wheat;
+            border: 1px solid;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+        </nav>
+    </header>
+    <!--Unique to the page-->
+    <main>
+        <section>
+            <h2>Learning HTML</h2>
+            <!--Independent article-->
+            <article>
+                <h3>Understanding Tables</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+            </article>
+            <article>
+                <h3>Understanding Frames</h3>
+                    <p>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when 
+                        looking at its layout.
+                    </p>
+            </article>
+
+        </section>
+        
+        <aside>
+            <h4>About the author</h4>
+            <p>There are many variations of passages of Lorem Ipsum available, 
+                but the majority have suffered alteration in some form, 
+                by injected humour, or randomised words which don't look even 
+                slightly believable
+            </p>
+            <h5>Related links</h5>
+            <ul>
+                <li><a href="a">HTML</a></li>
+                <li><a href="a">CSS</a></li>
+                <li><a href="a">JAVASCRIPT</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        &copy; Reserved, 2025
+    </footer>
+</body>
+</html>
